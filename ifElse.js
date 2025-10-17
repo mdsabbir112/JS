@@ -52,25 +52,25 @@ let age = 30;
 
 if(buy>=30000){
     // given the 10% offer for this 
-    const  disscount = buy* 10 / 100;
-    const payAmmount = buy - disscount;
-    console.log(disscount);
-    console.log(payAmmount);
+    const  discount = buy* 10 / 100;
+    const payAmount = buy - discount;
+    console.log(discount);
+    console.log(payAmount);
 }
 
-else if(buy>=15000 && age>=35){
+else if(buy>=20000 && age>=35){
     // given the 5% offer for this 
-    const  disscount = buy* 0.05;
-    const payAmmount = buy - disscount;
-    console.log(disscount);
-    console.log(payAmmount);
+    const  discount = buy* 0.05;
+    const payAmount = buy - discount;
+    console.log(discount);
+    console.log(payAmount);
 }
 // Nested Conditioal 
 else if(buy>=15000 && age>=25){
     // use the nested conditional 
     if(buy>=17000){
-        // Then we proide  the 3% discount 
-        const  discount = buy* 0.03;
+        // Then we proide  the 7% discount 
+        const  discount = buy* 0.07;
     const payAmount = buy - discount;
     console.log(discount);
     console.log(payAmount);
