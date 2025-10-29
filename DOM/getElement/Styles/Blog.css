@@ -1,0 +1,22 @@
+
+h2{
+    background-color: blue;
+    color: white;
+}
+
+li{
+    color: green;
+}
+
+#fav-subject{
+    color: skyblue;
+}
+
+.fav-places{
+    color: tomato;
+}
+
+/* places Container  */
+.places-container{
+    color: blue;
+}
