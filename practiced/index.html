@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Section for Function</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h2 id="main-title">Practice Section for function in Dom</h2>
+        <h3>$ <span id="main-balance">50000</span></h3>
+
+        <!-- There is the login table for apply the function -->
+
+        <div class="hero bg-base-200 min-h-screen">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+              <form class="card-body">
+                <fieldset class="fieldset">
+                  <label class="label">Account Number</label>
+                  <input id="Account-number" type="number" class="input" placeholder="Enter Account Number " />
+                  <label  class="label">Add Money </label>
+                  <input id="add-money1" type="number" class="input" placeholder="Enter Amount " />
+                  <label class="label">PIN Number</label>
+                  <input id="pin-number1" type="number" class="input" placeholder="Enter Pin" />
+                  <div><a class="link link-hover">Forgot password?</a></div>
+                  <button id="btn-login" class="btn btn-neutral mt-4">Login</button>
+                </fieldset>
+              </form>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/main.js"></script>
+    <script src="js/function.js"></script>
+  </body>
+</html>
