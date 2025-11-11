@@ -44,7 +44,7 @@ newBus.move();
 
 class car extends bus {
     constructor(name , engine , seats, oil){
-        // Now we use Super keyword to insert and get some value onto the parametter of the Vehical class 
+        // Now we use Super keyword to insert and get some value onto the parameter of the Vehical class 
         super(name , engine, seats);
         //this command for a new parametter of the bus class 
         // this.seatNumber= seats;
@@ -62,3 +62,10 @@ newBus.move();
 newCar.go();
 
 // here the Prototype and Prototypical chain oo use kora hoy  
+/**
+ * Proti ta object er moddhe ekek ta Prototype thake , output aa . ei prototype ekta chain maintain kore 
+ * Prototype chain mainly object er nich theke upor porjonto chole . and proty ta chain aa inherit kore check kore 
+ * je oii protypical object aa  amra jei value khujteci oii value ta ache ki na. jodi root porjonto na pay tobe undefined dekhabe . 
+ * 
+ * this is all about the prototype and Prototypical Chain
+ */

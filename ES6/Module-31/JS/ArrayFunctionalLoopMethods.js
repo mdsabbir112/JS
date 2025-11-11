@@ -10,7 +10,7 @@
 /**
  * Map Functional method :
  * Aita moloto ekta Array er upor loop through kore ekta noton Array te Return kore. 
- *  
+ *    
  */
 let numbers = [1,2,3,4,5,6,7,8,9];
 
