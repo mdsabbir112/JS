@@ -1,6 +1,8 @@
 
 //  here is the breif  concept of clouser  
 
+// Ekta function ervhitpre arekta function return kore dile tader ke clauser bole .
+
 // if a function are called then the count variable value will be increased 
 // let count = 0; /// globally declare the count variable 
 

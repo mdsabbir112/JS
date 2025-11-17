@@ -47,7 +47,7 @@ console.log(name); // here the actual value are not updated . it keeps the previ
 
 
 
-// Call by Reference 
+// Call by Reference  : mainly ekta ip Address memory te set kore dey, then oikhan theke data access kora jay
 
 // it basically works on the verge of Non-Premetive data 
 
