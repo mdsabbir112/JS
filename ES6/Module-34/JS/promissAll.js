@@ -14,7 +14,7 @@ const Arrays = [
 
 ];
 
-console.log(Arrays);
+// console.log(Arrays);
 
 Promise.all (Arrays.map(Array => {
     return fetch(Array).then(Response => Response.json()) // they just return the pormise over there 
