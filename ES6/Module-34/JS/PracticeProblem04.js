@@ -20,11 +20,20 @@
 
 // when we use the general function to use the async and await on that 
 
-async function result () {
-        const Response =await fetch("https://v2.jokeapi.dev/joke/Programming?type=single");
-    // console.log(Response);
-    const data = await Response.json();
-    console.log(data);
-    console.log(data.category);
-}
-result()
+// async function result () {
+//         const Response =await fetch("https://v2.jokeapi.dev/joke/Programming?type=single");
+//     // console.log(Response);
+//     const data = await Response.json();
+//     console.log(data);
+//     console.log(data.category);
+// }
+// result()
+
+
+
+
+let message = 'Hello!'; 
+setTimeout(() => {
+ message = 'Goodbye!'; 
+}, 0); 
+console.log(message);
